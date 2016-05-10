@@ -1,6 +1,7 @@
 """
     Easy Commands
     ~ Easy to deploy commands base script.
+    ~ Author: Dylan.J.T (iiNzTicTx).
 """
 class cmd( object ):
     def __init__( self ):
