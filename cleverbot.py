@@ -205,5 +205,5 @@ async def on_ready():
     print('Connected with username %s, userID: %s' % ( client.user.name, client.user.id ) );
 
 
-client.run('MTgwNjQ3Nzk0MjMzNzA0NDQ4.ChdQ3g.KohgkcxwMQZ9rkpbZXdEbeys3Kg')
+client.run('token')
 handle.close();
