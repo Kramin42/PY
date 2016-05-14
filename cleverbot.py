@@ -74,7 +74,7 @@ async def on_message(message):
 
             data = cur.fetchone();
             if( data ):
-                await client.send_message( message.channel, "%s has %d cookie$s." % ( user, data['cookies'], '' if data['cookies']==1 else 's') );
+                await client.send_message( message.channel, "%s has %d cookie%s." % ( user, data['cookies'], '' if data['cookies']==1 else 's') );
                 return
             await client.send_message( message.channel, "%s has no cookies." % ( user ) );
             return;
